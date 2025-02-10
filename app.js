@@ -13,5 +13,16 @@ function adicionarAmigo() {
   itenAmigos.innerHTML = inputAmigo.value;
   listaAmigo.appendChild(itenAmigos);
 
-  inputAmigo.value = ""
+  inputAmigo.value = "";
+}
+
+function sortearAmigo() {
+  if (amigos.length >= 2) {
+    let amigoSorteado = Math.floor(Math.random() * amigos.length);
+    console.log(amigos[amigoSorteado]);
+    let resultado = document.querySelector("#resultado")
+    resultado.innerHTML = `Parabéns, o nome sorteado foi ${amigos[amigoSorteado]}`
+  } else {
+    alert("Para sortear um nome é necessário que tenha pelo menos 2 nomes");
+  }
 }
