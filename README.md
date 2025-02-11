@@ -1,4 +1,4 @@
-Sorteio de Amigos
+<h1>Sorteio de amigos</h1>
 
 Este projeto permite adicionar nomes a uma lista e realizar um sorteio aleatório entre os nomes cadastrados.
 
