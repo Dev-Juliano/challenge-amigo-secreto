@@ -21,8 +21,8 @@ function sortearAmigo() {
     let amigoSorteado = Math.floor(Math.random() * amigos.length);
     console.log(amigos[amigoSorteado]);
     let resultado = document.querySelector("#resultado")
-    resultado.innerHTML = `Parabéns, o nome sorteado foi ${amigos[amigoSorteado]}`
+    resultado.innerHTML = `Parabéns, o nome sorteado foi ${amigos[amigoSorteado]}.`
   } else {
-    alert("Para sortear um nome é necessário que tenha pelo menos 2 nomes");
+    alert("Para sortear um nome é necessário que tenha pelo menos 2 nomes.");
   }
 }
